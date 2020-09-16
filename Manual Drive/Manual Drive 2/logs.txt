@@ -1,0 +1,37 @@
+ps_wala => tanay shingi wala
+ps_wala_v2 => button press movt start
+ps_wala_v3 => button hold movt
+
+-------ps_wala_v6.1------------ 1 Dec
+L2,R2=fast rotation
+rotation multiplier diff for fast and slow added
+Controls:
+1.Right Analog Stick: Movement WASD
+2.Left Analog Stick: Slow Rotation
+3.L2 and R2: Fast Rotation
+4.Triangle: Manual Mode
+5.Square: Auto Mode
+6.Cross: Halt
+Average Time: 17s
+Best Time: 14s
+Fastest Time: 10s but motion not refined
+
+----------ps_wala_imu------------- 7 Dec
+imu_enable
+dir_reset
+resetFunc added
+
+----------ps_wala_imu------------- 7 Dec
+check whether imu is connected - system_error
+blinked led om imu status
+resetFunc added in imu_init
+
+------------PS3_Grip_v1-------------
+ps_wala_v6.1+Gripping Mechanism
+
+------------PS3_Grip_Auto_v1-------------
+ps_wala_v6.1+Gripping Mechanism
+Automation with states decided by encoder reading
+
+------------PS3_Auto_Grip_v3--------------
+Added sabertooth to rotate rack
